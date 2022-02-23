@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="login">
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+    <partial name = "_Culture"/>
+    <ul>
+        <li>@Html.ActionLink("English","Change", "Language",new{LanguageAbbrevation= "en"},null)</li>
+        <li>@Html.ActionLink("Spanish","Change", "Language",new{LanguageAbbrevation= "es"},null)</li>
+        <li>@Html.ActionLink("French","Change", "Language",new{LanguageAbbrevation= "fr"},null)</li>
+    </ul>
+
+     
+
+    </div>
+    </div>
+    </div>
+    </div></div>
